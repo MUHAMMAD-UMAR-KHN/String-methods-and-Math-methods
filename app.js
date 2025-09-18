@@ -48,7 +48,7 @@ for (let i = 0; i < word3.length; i++) {
     }
 }
 console.log("String:", word3);
-console.log("Character at index 3 is",searchLetter.toString());
+console.log("Character at index 3 is", searchLetter.toString());
 
 
 
@@ -66,9 +66,9 @@ alert("greetings ", fullName);
 //Q7
 
 var city = "Hyderabad";
-var replacement = city.replace("Hyder","Islam");
+var replacement = city.replace("Hyder", "Islam");
 console.log("City:", city);
-console.log("After replacement:",replacement);
+console.log("After replacement:", replacement);
 
 
 
@@ -84,11 +84,11 @@ console.log(message.replaceAll("and", "&"));
 //Q9
 
 var numb = "472";
-console.log("Value:",numb)
-console.log("Type:",typeof numb);
+console.log("Value:", numb)
+console.log("Type:", typeof numb);
 var convertedNumb = Number(numb);
-console.log("Value:",numb);
-console.log("Type:",typeof convertedNumb);
+console.log("Value:", numb);
+console.log("Type:", typeof convertedNumb);
 
 
 
@@ -96,9 +96,9 @@ console.log("Type:",typeof convertedNumb);
 //Q10
 
 var userInput = prompt("Enter any word: ");
-console.log("User Input:",userInput);
+console.log("User Input:", userInput);
 var convertedUserInput = userInput.toUpperCase();
-console.log("Upper Case:",convertedUserInput);
+console.log("Upper Case:", convertedUserInput);
 
 
 
@@ -106,13 +106,13 @@ console.log("Upper Case:",convertedUserInput);
 //Q11
 
 var userInput2 = prompt("Enter the statement: ");
-console.log("Normal statement:",userInput2);
-var words  = userInput2.toLowerCase().split(" ");
-for(var i = 0; i<words.length;i++){
+console.log("Normal statement:", userInput2);
+var words = userInput2.toLowerCase().split(" ");
+for (var i = 0; i < words.length; i++) {
     words[i] = words[i].charAt(0).toUpperCase() + words[i].slice(1);
 }
 var titleCaseText = words.join(" ")
-console.log("Title Case:",titleCaseText);
+console.log("Title Case:", titleCaseText);
 
 
 
@@ -123,17 +123,17 @@ console.log("Title Case:",titleCaseText);
 var number1 = 32.56;
 console.log(`The number is ${number1} and its datatype before type conversion is ${typeof number1}`);
 var strNumb = number1.toString();
-console.log("Data type after type conversion: ",typeof strNumb);
+console.log("Data type after type conversion: ", typeof strNumb);
 var reqNumb = [];
-for(let i = 0;i<strNumb.length;i++){
-    if(strNumb[i] === "."){
+for (let i = 0; i < strNumb.length; i++) {
+    if (strNumb[i] === ".") {
         continue;
     }
-    else{
+    else {
         reqNumb.push(strNumb[i]);
     }
 }
-reqNumb = reqNumb.join().replaceAll(",","");
+reqNumb = reqNumb.join().replaceAll(",", "");
 console.log(reqNumb);
 
 
@@ -143,10 +143,10 @@ console.log(reqNumb);
 //Q14
 
 var item = prompt("Enter the item: ").toLowerCase();
-var itemsList = ["cake","apple pie","cookie","chips","patties"];
+var itemsList = ["cake", "apple pie", "cookie", "chips", "patties"];
 var flag = false;
-for(let i = 0; i <itemsList.length; i++){
-    if(item == itemsList[i]){
+for (let i = 0; i < itemsList.length; i++) {
+    if (item == itemsList[i]) {
         flag = true;
         console.log(`${itemsList[i]} is available at index ${i} in our bakery.`)
     }
@@ -160,10 +160,10 @@ if (flag === false) {
 
 //Q13
 
-var userName =prompt("Enter your username: ");
+var userName = prompt("Enter your username: ");
 var checker = true;
-for(let i = 0; i<userName.length; i++){
-    if(userName[i] == "@" || userName[i] == "." || userName[i] == "," || userName[i] == "!"){
+for (let i = 0; i < userName.length; i++) {
+    if (userName[i] == "@" || userName[i] == "." || userName[i] == "," || userName[i] == "!") {
         checker = false;
         console.log("Username is not valid");
         break;
@@ -180,7 +180,7 @@ if (checker == true) {
 
 var university = "University Of Karachi";
 var splitedUniversity = university.split().toString();
-for(let i = 0; i < splitedUniversity.length; i++){
+for (let i = 0; i < splitedUniversity.length; i++) {
     console.log(splitedUniversity[i]);
 }
 
@@ -192,8 +192,8 @@ for(let i = 0; i < splitedUniversity.length; i++){
 
 var userWord = prompt("Enter the word: ");
 var lastCharacter = userWord[userWord.length - 1];
-console.log("user input:",userWord);
-console.log("Last character of input:",lastCharacter);
+console.log("user input:", userWord);
+console.log("Last character of input:", lastCharacter);
 
 
 
@@ -203,12 +203,12 @@ console.log("Last character of input:",lastCharacter);
 var sentence = "The quick brown fox jumps over the lazy dog".toLowerCase();
 var splitedSentence = sentence.split(" ");
 var theWord = [];
-for(let i = 0; i< splitedSentence.length; i++){
-    if(splitedSentence[i] == "the"){
+for (let i = 0; i < splitedSentence.length; i++) {
+    if (splitedSentence[i] == "the") {
         theWord.push(splitedSentence[i]);
     }
 }
-console.log("Text:",sentence);
+console.log("Text:", sentence);
 console.log(`There are ${theWord.length} occurences of word "the". `);
 
 
@@ -218,10 +218,10 @@ console.log(`There are ${theWord.length} occurences of word "the". `);
 //Q1
 
 var int1 = 3.45214;
-console.log("number:",int1);
-console.log("Round off value:",Math.round(int1));
-console.log("floor value:",Math.floor(int1));
-console.log("ceil value:",Math.ceil(int1))
+console.log("number:", int1);
+console.log("Round off value:", Math.round(int1));
+console.log("floor value:", Math.floor(int1));
+console.log("ceil value:", Math.ceil(int1))
 
 
 
@@ -230,9 +230,9 @@ console.log("ceil value:",Math.ceil(int1))
 
 var negInt = -2.673;
 console.log(negInt);
-console.log("round off value:",Math.round(negInt));
-console.log("floor value:",Math.floor(negInt));
-console.log("ceil value:",Math.round(negInt));
+console.log("round off value:", Math.round(negInt));
+console.log("floor value:", Math.floor(negInt));
+console.log("ceil value:", Math.round(negInt));
 
 
 
@@ -240,7 +240,7 @@ console.log("ceil value:",Math.round(negInt));
 //Q3
 
 var int2 = -4;
-console.log(`The absolute value of ${int2} is`,Math.abs(int2));
+console.log(`The absolute value of ${int2} is`, Math.abs(int2));
 
 
 
@@ -248,8 +248,8 @@ console.log(`The absolute value of ${int2} is`,Math.abs(int2));
 
 //Q4
 
-var diceValue = Math.random()*6;
-console.log("random dice value:",Math.round(diceValue));
+var diceValue = Math.random() * 6;
+console.log("random dice value:", Math.round(diceValue));
 
 
 
@@ -258,11 +258,11 @@ console.log("random dice value:",Math.round(diceValue));
 
 var coinToss = Math.random() * 10;
 var n = 2;
-if(coinToss > 5){
+if (coinToss > 5) {
     console.log(n)
     console.log("random coin value: Heads");
 }
-else{
+else {
     n = 1;
     console.log(n);
     console.log("random coin value: Tails");
@@ -275,7 +275,7 @@ else{
 
 var integer = Math.random() * 100;
 var realInteger = Math.floor(integer);
-console.log("Random number between 1 and 100:",realInteger);
+console.log("Random number between 1 and 100:", realInteger);
 
 
 
@@ -294,8 +294,30 @@ console.log("the weight of user is" + " " + actWeight + " " + "kilograms");
 var enterNumber = +prompt("Enter the number: ");
 var randomNumber = Math.random() * 9;
 var finalRandomNumber = Math.ceil(randomNumber);
-if(enterNumber == finalRandomNumber){
-console.log("Congratulation! you have guess the correct number");
-}else{
-console.log("Try Again!!!");
+if (enterNumber == finalRandomNumber) {
+    console.log("Congratulation! you have guess the correct number");
+} else {
+    console.log("Try Again!!!");
 }
+
+
+
+
+//------------- myPassword task--------------------------
+
+var numbers = "0123456789";
+var specialCharacters = "!@#$%^&*()_+{}[]<>?/|";
+var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var lowerCase = "abcdefghijklmnopqrstuvwxyz";
+
+var allCharacters = upperCase + lowerCase + numbers + specialCharacters;
+
+var myPassword = "";
+var length = 8;
+
+for (var i = 0; i < length; i++) {
+    var randomIndex = Math.floor(Math.random() * allCharacters.length);
+    myPassword += allCharacters[randomIndex];
+}
+
+console.log("Generated myPassword:", myPassword);
