@@ -191,9 +191,16 @@ for(let i = 0; i < splitedUniversity.length; i++){
 //Q17
 
 var userWord = prompt("Enter the word: ");
-var lastCharacter = userWord.charAt(userWord[-1]);
+var lastCharacter = userWord[userWord.length - 1];
 console.log("user input:",userWord);
 console.log("Last character of input:",lastCharacter);
+
+
+
+
+//Q18
+
+
 
 
 
