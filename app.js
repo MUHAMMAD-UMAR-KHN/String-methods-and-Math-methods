@@ -320,4 +320,4 @@ for (var i = 0; i < length; i++) {
     myPassword += allCharacters[randomIndex];
 }
 
-console.log("Generated myPassword:", myPassword);
+console.log("Password:", myPassword);
