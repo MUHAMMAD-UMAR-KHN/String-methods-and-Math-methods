@@ -200,8 +200,16 @@ console.log("Last character of input:",lastCharacter);
 
 //Q18
 
-
-
+var sentence = "The quick brown fox jumps over the lazy dog".toLowerCase();
+var splitedSentence = sentence.split(" ");
+var theWord = [];
+for(let i = 0; i< splitedSentence.length; i++){
+    if(splitedSentence[i] == "the"){
+        theWord.push(splitedSentence[i]);
+    }
+}
+console.log("Text:",sentence);
+console.log(`There are ${theWord.length} occurences of word "the". `);
 
 
 
