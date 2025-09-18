@@ -213,12 +213,6 @@ console.log(`There are ${theWord.length} occurences of word "the". `);
 
 
 
-
-
-
-
-
-
 //-----------------------chapter 26-30----------------------
 
 //Q1
