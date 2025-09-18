@@ -176,21 +176,24 @@ if (checker == true) {
 
 
 
-//Q15
+//Q16
 
-var password = prompt("Enter your password: ");
-for(let i = 0; i < password.length; i++){
-    if(){}
+var university = "University Of Karachi";
+var splitedUniversity = university.split().toString();
+for(let i = 0; i < splitedUniversity.length; i++){
+    console.log(splitedUniversity[i]);
 }
 
 
 
 
 
+//Q17
 
-
-
-
+var userWord = prompt("Enter the word: ");
+var lastCharacter = userWord.charAt(userWord[-1]);
+console.log("user input:",userWord);
+console.log("Last character of input:",lastCharacter);
 
 
 
